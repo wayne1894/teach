@@ -3,12 +3,47 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>網站標頭</title>
+	<title>林口資源中心 - 網頁設計入門體驗班</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="js/jquery.rwdImageMaps.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<style>
+		body{
+			background-color: #edeeee;
+		}
+		img{
+			position: relative;
+			width: 100%;
+		}
+		iframe{
+			width: 100%;
+			height: 3000px;
+		}
+	</style>
 </head>
 
 <body>
-	網站內容
+
+<img id="Image-Maps-Com-image-maps-2017-10-30-043512" src="img/web.png" border="0"  usemap="#image-maps-2017-10-30-043512" alt="" />
+<map name="image-maps-2017-10-30-043512" id="ImageMapsCom-image-maps-2017-10-30-043512">
+<area  alt="" title="" href="http://oneworld.tw/" shape="rect" coords="147,539,412,626" style="outline:none;" target="_self"     />
+<area  alt="" title="" href="https://www.facebook.com/iFoundry.innoMakingSpace/" shape="rect" coords="511,536,779,629" style="outline:none;" target="_blank"     />
+<area  alt="" title="" href="https://www.facebook.com/iFoundry.innoMakingSpace/" shape="rect" coords="865,534,1148,623" style="outline:none;" target="_blank"    />
+<area  alt="" title="" href="https://www.facebook.com/iFoundry.innoMakingSpace/" shape="rect" coords="1239,535,1522,624" style="outline:none;" target="_blank"     />
+<area  alt="" title="" href="http://oneworld.tw/" shape="rect" coords="669,756,1013,834" style="outline:none;" target="_blank"     />
+<area  alt="" title="" href="https://www.facebook.com/iFoundry.innoMakingSpace/" shape="rect" coords="664,832,1159,901" style="outline:none;" target="_blank"     />
+<area shape="rect" coords="1598,1031,1600,1033" alt="Image Map" style="outline:none;" title="Image Map" href="http://www.image-maps.com/index.php?aff=mapped_users_0" />
+</map>
+
+	<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfDLc8OSGwesrBmdB2nipkid2SuabmimaZl7iCBLFaJ2STeTQ/viewform?usp=sf_link" frameborder="0"></iframe>
+	
+	
+		<script>
+	$(document).ready(function(e) {
+		$('img[usemap]').rwdImageMaps();
+	});
+	</script>
+	
 </body>
 
 </html>
