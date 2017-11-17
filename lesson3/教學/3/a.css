@@ -1,0 +1,12 @@
+body{
+	background-color: #ff6600;
+}
+#a1{
+	width: 500px;
+	background-color: red;
+}
+#a2{
+	height: 100px;
+	background-color: cadetblue;
+	color: blue;
+}
